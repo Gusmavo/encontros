@@ -1,0 +1,253 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+fieldset {
+    border: 4px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend {
+    width:auto; /* Or auto */
+    margin-bottom: 10px;
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}
+span {
+    display: inline;
+}
+
+
+textarea{
+    resize: none;
+    align-content: center;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+
+/*TABELAS */
+table .formulario {
+    border: 1px solid #848484;
+    border-collapse: collapse;
+    width: 100%;
+}
+.formulario tbody{
+    background-color: #bdbdbd;
+}
+.formulario td{
+    border: 1px solid #848484;
+    padding: 8px;
+    text-align: left;
+}
+.formulario th {
+    border: 1px solid #848484;
+    padding: 8px;
+    text-align: left;
+    background-color: #0f0f1e;
+    color: white;
+}
+/*Fim TABELAS */
+
+.horizontal-separator{
+    border-bottom: solid 2px;
+    border-bottom-color: #215f5a;
+}
+.index-editais{
+    width:100%;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid #215f5a;
+    margin-bottom: 15px;
+}
+
+.index-editais article{
+    width:100%;
+    background-color: #ddd;
+    margin: 10px 1% 5px 1%;
+    float: left;
+    border: 1px solid #215f5a;
+}
+.index-editais h4{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 5px;
+
+}
+.index-editais h3{
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-top:2px;
+    margin-bottom:5px;
+    border-bottom: 1px solid #215f5a;
+}
+.index-editais h2{
+    color: white;
+    background-color: #215f5a;
+    margin: 0;
+    text-align: center;
+    font-size: 28px;
+}
+
+.width100 { width: 100%; }
+.width75 { width: 75%; }
+.width50 { width: 50%; }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.alignLeft { text-align: left; }
+.alignCenter { text-align: center; }
+.alignRight { text-align: right; }
+.padding5{ padding:5px }
+.padding10{ padding:10px }
+.padding15{ padding:15px }
+.padding20{ padding:20px }
+.margin5{ margin: 5px }
+.margin10{ margin: 10px }
+.margin15{ margin: 15px }
+.margin20{ margin: 20px }
+.colorBlue{ color: #003366}
+
+.index-editais article a{
+    margin: 0;
+}
+.encontros{
+    margin-left: 25px;
+    padding-bottom: 5px;
+
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: s;
+}
+
+.encontro{
+    z-index: -1;
+    margin-left:10px;
+    background-color: #bfbfbf;
+    border: solid 2px #aaa;
+}
+
+.horario{
+    line-height: 50px;
+    background-color: #3498db;
+    color: white;
+    height: 100%;
+    width: 120px;
+    padding:0 10px;
+}
+
+
+.caixa{
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.caixa h2.back{
+    color: white;
+    background-color: #003366;
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 28px;
+}
+.caixa h2.titulo{
+    color: #003366;
+    border-bottom: 5px solid #003366;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.verde{
+    background: #16a085;
+    color: #ffffff;
+}
+
+/*
+CSS BOTÕES
+ */
+.semBorda {
+    border-radius:0;
+}
+
+.btn-vermelho {
+    background: #d11141;
+    color: #ffffff;
+}.btn-vermelho:hover, .btn-vermelho:focus, .btn-vermelho:active, .btn-vermelho.active, .open > .dropdown-toggle.btn-vermelho {
+     background: #a70d34;
+     color: #ffffff;
+ }
+
+.btn-verde {
+    background: #16a085;
+    color: #ffffff;
+}.btn-verde:hover, .btn-verde:focus, .open > .dropdown-toggle.btn-verde {
+     background: #008d47;
+     color: #ffffff;
+ }
+
+.btn-azul {
+    background: #3498db;
+    color: #ffffff;
+}.btn-azul:hover, .btn-azul:focus, .open > .dropdown-toggle.btn-azul {
+     background: #2979af;
+     color: #ffffff;
+ }
+
+.btn-laranja {
+    background: #f37735;
+    color: #ffffff;
+}.btn-laranja:hover, .btn-laranja:focus, .open > .dropdown-toggle.btn-laranja {
+     background: #c25f2a;
+     color: #ffffff;
+ }
+
+.btn-escuro {
+    background: #4f372d;
+    color: #ffffff;
+}.btn-escuro:hover, .btn-escuro:focus, .open > .dropdown-toggle.btn-escuro {
+     background: #37261f;
+     color: #ffffff;
+ }
+
+.agendar{
+    z-index: 1;
+    line-height: 50px;
+    height: 100%;
+    padding: 0 10px;
+    float:right;
+}
+
+.vagas{
+    line-height: 25px;
+    padding: 0 10px;
+    height: 100%;
+}
+.vagas p{
+    margin: 0;
+}
+/*
+Fim css BOTÕES
+ */
+
+button span {
+    max-width: 0;
+    -webkit-transition: max-width 1s;
+    transition: max-width 1s;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+}
+button:hover span {
+    max-width: 7rem;
+}
+
